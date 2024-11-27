@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--external bean-->
+<!--    <bean id="dept" class="com.schh.spring6.iocxml.ditest.Dept">-->
+<!--        <property name="dname" value="Security"></property>-->
+<!--    </bean>-->
+<!--    <bean id="emp" class="com.schh.spring6.iocxml.ditest.Emp">-->
+<!--        <property name="ename" value="Lucy"></property>-->
+<!--        <property name="age" value="50"></property>-->
+
+<!--        &lt;!&ndash;reference&ndash;&gt;-->
+<!--        <property name="dept" ref="dept"></property>-->
+<!--    </bean>-->
+
+
+
+<!--&lt;!&ndash;    internal bean&ndash;&gt;-->
+<!--    <bean id="emp2" class="com.schh.spring6.iocxml.ditest.Emp">-->
+<!--        <property name="ename" value="Mary"></property>-->
+<!--        <property name="age" value="20"></property>-->
+
+<!--        <property name="dept">-->
+<!--            <bean id="dept2" class="com.schh.spring6.iocxml.ditest.Dept">-->
+<!--                <property name="dname" value="Account"></property>-->
+<!--            </bean>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+    <bean id="dept3" class="com.schh.spring6.iocxml.ditest.Dept">
+        <property name="dname" value="Tech"></property>
+    </bean>
+
+    <bean id="emp3" class="com.schh.spring6.iocxml.ditest.Emp">
+        <property name="ename" value="Tom"></property>
+        <property name="age" value="30"></property>
+        <property name="dept" ref="dept3"></property>
+        <property name="dept.dname" value="Testing"></property>
+    </bean>
+</beans>
