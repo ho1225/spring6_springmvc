@@ -7,7 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc_01" />
+        <module name="springmvc_request_mapping" />
+        <module name="springmvc_request_param" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springmvbc_request_mapping" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
