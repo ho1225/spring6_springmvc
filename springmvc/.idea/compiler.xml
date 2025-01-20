@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc_01" />
         <module name="springmvc_response" />
-        <module name="springmvc_request_mapping" />
         <module name="springmvc_request_param" />
+        <module name="springmvc_ssm" />
         <module name="springmvc_rest" />
         <module name="springmvc_rest_case" />
+        <module name="springmvc_request_mapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
