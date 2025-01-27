@@ -13,6 +13,7 @@
         <module name="springmvc_rest" />
         <module name="springmvc_rest_case" />
         <module name="springmvc_request_mapping" />
+        <module name="springmvc_result" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
