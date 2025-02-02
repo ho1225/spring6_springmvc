@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/springmvc_rest/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc_result/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_interceptor/pom.xml" />
       </list>
     </option>
   </component>
